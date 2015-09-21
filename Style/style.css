@@ -1,0 +1,83 @@
+/*div{
+	border: 1px solid red;
+}*/
+
+aside {
+	z-index: 1;
+	float:left;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	width: 48px;
+	left: 0px;
+	bottom: 0px;
+	/*background: #7bcde0;*/
+	/*background: -moz-linear-gradient(top, #7bcde0 0%, #7be3cd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7bcde0), color-stop(100%, #7be3cd));
+	background: -webkit-linear-gradient(top, #7bcde0 0%, #7be3cd 100%);
+	background: -o-linear-gradient(top, #7bcde0 0%, #7be3cd 100%);
+	background: -ms-linear-gradient(top, #7bcde0 0%, #7be3cd 100%);
+	background: linear-gradient(to bottom, #7bcde0 0%, #7be3cd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#7bcde0', endColorstr = '#7be3cd', GradientType = 0);*/
+	background-color: rgba(123,205,224,0.2);
+}
+
+aside div{
+	height: 100%;
+}
+
+aside ul {
+	display: block;
+	width: 100%;
+	padding-top: 218px;
+	padding-left: 16px;
+}
+
+aside ul li {
+	display: block;
+	margin-right: 20px;
+	padding top: 30px;
+	padding-bottom: 30px;
+	opacity: 1;
+}
+
+.fa{
+color: white;
+opacity: 0.9;
+}
+
+
+.col-md-6{
+	height: 100%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+}
+
+#picture{
+	background-image: url("http://i.imgur.com/qD7neEa.jpg");
+	/*background-image: url(images/l06G9tj.jpg);*/ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:710px;
+}
+#content{
+	background-color: #111111;
+    height:710px;
+}
+#name{
+	font-size: 50px;
+	margin-top: 5em;
+}
+.info{
+	margin:3em;
+}
+#exp-chart{
+	height:710px;
+	background-color: #258786;
+}
+#resume{
+	height:710px;
+	background-color: #258786;
+}
