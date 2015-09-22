@@ -1,7 +1,7 @@
-var ctx = document.getElementById("myChart").getContext("2d");
-var myRadarChart = new Chart(ctx).Radar(data, options);
+//var ctx = document.getElementById("myChart").getContext("2d");
+//var myRadarChart = new Chart(ctx).Radar(data, options);
 
-var data = {
+//var data = {
     labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
     datasets: [
         {
@@ -15,4 +15,4 @@ var data = {
             data: [65, 59, 90, 81, 56, 55, 40]
         },
     ]
-};
+};//

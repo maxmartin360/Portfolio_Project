@@ -46,7 +46,6 @@ color: white;
 opacity: 0.9;
 }
 
-
 .col-md-6{
 	height: 100%;
 	background-color: blue;
@@ -80,4 +79,37 @@ opacity: 0.9;
 #resume{
 	height:710px;
 	background-color: #258786;
+	/*border: 1px solid black;*/
+}
+#title-skills{
+	height: 50px;
+	text-align: center;
+	background-color: #258786;
+}
+#experience{
+	height:710px;
+	background-color: #258786;
+	/*border: 1px solid black;*/
+}
+#education{
+	height:710px;
+	background-color: #258786;
+	/*border: 1px solid black;*/
+	text-align: left;
+}
+.resume-list{
+	list-style-type: none;
+	text-align: left;
+}
+.resume-items{
+	text-align: left;
+}
+#title-portfolio{
+	height: 50px;
+	text-align: center;
+	background-color: #D3E7E6;
+}
+#portfolio{
+	height: 710px;
+	background-color: #D3E7E6;
 }
