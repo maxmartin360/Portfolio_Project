@@ -1,3 +1,9 @@
+html, body {
+	height:100%;
+}
+
+
+
 /*div{
 	border: 1px solid red;
 }*/
@@ -54,16 +60,20 @@ opacity: 0.9;
 	overflow: hidden;
 }
 
+#content-1, #content-2, #content-3{
+	height:95%;
+}
+
 #picture{
 	background-image: url("http://i.imgur.com/qD7neEa.jpg");
 	/*background-image: url(images/l06G9tj.jpg);*/ 
     background-repeat: no-repeat;
     background-size: cover;
-    height:710px;
+    height:100%;
 }
 #content{
 	background-color: #111111;
-    height:710px;
+    height:100%;
 }
 #name{
 	font-size: 50px;
@@ -73,11 +83,11 @@ opacity: 0.9;
 	margin:3em;
 }
 #exp-chart{
-	height:710px;
+	height:100%;
 	background-color: #258786;
 }
 #resume{
-	height:710px;
+	height:100%;
 	background-color: #258786;
 	/*border: 1px solid black;*/
 }
@@ -87,12 +97,12 @@ opacity: 0.9;
 	background-color: #258786;
 }
 #experience{
-	height:710px;
+	height:100%;
 	background-color: #258786;
 	/*border: 1px solid black;*/
 }
 #education{
-	height:710px;
+	height:100%;
 	background-color: #258786;
 	/*border: 1px solid black;*/
 	text-align: left;
@@ -110,6 +120,6 @@ opacity: 0.9;
 	background-color: #D3E7E6;
 }
 #portfolio{
-	height: 710px;
+	height: 100%;
 	background-color: #D3E7E6;
 }
