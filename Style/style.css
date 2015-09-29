@@ -35,7 +35,7 @@ aside div{
 aside ul {
 	display: block;
 	width: 100%;
-	padding-top: 218px;
+	padding-top: 300px;
 	padding-left: 16px;
 }
 
@@ -60,7 +60,7 @@ opacity: 0.9;
 	overflow: hidden;
 }
 
-#content-1, #content-2, #content-3{
+#content-1, #content-2, #content-4{
 	height:95%;
 }
 
@@ -78,9 +78,11 @@ opacity: 0.9;
 #name{
 	font-size: 50px;
 	margin-top: 5em;
+	font-family: 'Open Sans', sans-serif;
 }
 .info{
 	margin:3em;
+	font-family: 'Open Sans', sans-serif;
 }
 #exp-chart{
 	height:100%;
@@ -92,9 +94,12 @@ opacity: 0.9;
 	/*border: 1px solid black;*/
 }
 #title-skills{
-	height: 50px;
+	height: 10%;
 	text-align: center;
 	background-color: #258786;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 #experience{
 	height:100%;
@@ -115,11 +120,31 @@ opacity: 0.9;
 	text-align: left;
 }
 #title-portfolio{
-	height: 50px;
+	height: 5%;
 	text-align: center;
 	background-color: #D3E7E6;
 }
-#portfolio{
-	height: 100%;
+#content-3{
+	height:45%;
 	background-color: #D3E7E6;
+}	
+.project{
+	width: 200px;
+	height: 250px;
+	background-color: #111111;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#project-holder{
+	margin-left: 5%;
+}
+#title-contact{
+	height:5%;
+	text-align: center;
+	background-color: #111111; 
+}
+#content-5{
+	height:35%;
+	background-color: #111111; 
 }
