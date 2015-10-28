@@ -1,3 +1,24 @@
+
+@media screen and (max-width: 360px) {
+	#content-1, #content-2, #content-4,  {
+		height: 640px;
+	}
+	#picture{
+		height:640px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	aside {
+		display: none;
+	}
+
+	#sidebar{
+		display: none;
+	}
+ }
+
+
 html, body {
 	height:100%;
 }
@@ -87,7 +108,15 @@ opacity: 0.9;
 #exp-chart{
 	height:100%;
 	background-color: #258786;
+	border: 1px solid red;
 }
+.resume-content {
+	color: white;
+	margin: 0 auto;
+	padding-left: 100px;
+}
+
+
 #resume{
 	height:100%;
 	background-color: #258786;
@@ -115,9 +144,12 @@ opacity: 0.9;
 .resume-list{
 	list-style-type: none;
 	text-align: left;
+	padding-left: 0px;
 }
 .resume-items{
 	text-align: left;
+	list-style-type: none;
+	padding-left: 0px;
 }
 #title-portfolio{
 	height: 5%;
@@ -147,4 +179,144 @@ opacity: 0.9;
 #content-5{
 	height:35%;
 	background-color: #111111; 
+}
+
+#solar-system{
+	height: 100%;
+	width: 100%;
+	border: 1px solid red;
+}
+#sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    height: 125px;
+    width: 125px;
+    margin-top: -100px; 
+    margin-left: -100px;
+
+    border-color: orange;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+
+    box-shadow: 0 0 25px brown;
+}
+
+#planet1{
+	position: absolute;
+	top:210px;
+	left:200px;
+	border-color: sienna;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 50%;
+
+}
+
+#planet1-orbit {
+	position: absolute;
+    top: 435px;
+    left: 435px;
+
+    width: 280px;
+    height: 280px;
+    margin-top: -250px;
+    margin-left: -250px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 50%;
+    
+     -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;
+}
+
+#earth {
+    /* Style your earth */
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-color: steelblue;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    height: 80px;
+}
+
+#earth-orbit {
+    /* For Section #2 */
+    position: absolute;
+    top: 48.5%;
+    left: 49.5%;
+
+    width: 450px;
+    height: 450px;
+    margin-top: -250px;
+    margin-left: -250px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 13s linear infinite;
+     -moz-animation: spin-right 13s linear infinite;
+      -ms-animation: spin-right 13s linear infinite;
+       -o-animation: spin-right 13s linear infinite;
+          animation: spin-right 13s linear infinite; 
+}
+
+#planet2{
+	position: absolute;
+    top: 0%;
+    left: 24%;
+    height: 65px;
+}
+
+#planet2-orbit {
+    /* For Section #2 */
+    position: absolute;
+    top: 37%;
+    left: 39%;
+
+    width: 650px;
+    height: 650px;
+    margin-top: -250px;
+    margin-left: -250px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 13s linear infinite;
+     -moz-animation: spin-right 13s linear infinite;
+      -ms-animation: spin-right 13s linear infinite;
+       -o-animation: spin-right 13s linear infinite;
+          animation: spin-right 13s linear infinite; 
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
